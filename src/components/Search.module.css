@@ -1,0 +1,62 @@
+/* 832258    bacddc    eae2d6*/
+/* ebdfc7   162843 */
+
+.container {
+    display: flex;
+    margin-bottom: 60px;
+    align-items: center;
+    /* margin-top: 200px; */
+}
+
+.container input {
+    padding: 8px 10px;
+    border: solid #162843 2px;
+    color: #162843;
+    background-color: #ffffff; /*faf5e8*/
+    border-radius: 10px;
+    font-size: 18px;
+    width: 240px;
+    font-weight: 500;
+}
+
+.container input:focus {
+    outline: none;
+}
+
+.search {
+    background-color: #000; /*162843*/
+    color: #fff; /*faf5e8 ffadc8*/
+    margin-left: 15px;
+    font-size: 37px;
+    padding: 7px;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px 1px #16284345;
+}
+
+.search:hover {
+    /* padding: 5px; */
+    box-shadow: 0px 0px 7px 4px #16284345;
+}
+
+@media (max-width: 500px) {
+    .container {
+        margin-top: 120px;
+        margin-bottom: 50px;
+    }
+
+    .container input {
+        padding: 4px 8px;
+        border: solid #162843 2px;
+        border-radius: 6px;
+        font-size: 12px;
+        width: 180px;
+    }
+
+    .search {
+        margin-left: 12px;
+        font-size: 26px;
+        padding: 5px;
+        border-radius: 6px;
+    }
+}
